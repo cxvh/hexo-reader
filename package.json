@@ -1,7 +1,7 @@
 {
-  "name": "hexo-migrator-rss",
-  "version": "1.1.0",
-  "description": "RSS migrator plugin for Hexo",
+  "name": "hexo-reader",
+  "version": "1.0.0",
+  "description": "RSS reader plugin for Hexo,clone website of hexo",
   "main": "index.js",
   "directories": {
     "lib": "./lib"
@@ -22,19 +22,27 @@
     "rss",
     "feed",
     "atom",
-    "migrator"
+    "reader",
+    "clone"
   ],
-  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
+  "author": "Baran Lee <507570355@qq.com> (https://cxvh.com)",
   "maintainers": [
-    "Abner Chou <hi@abnerchou.me> (http://abnerchou.me)"
+    "Baran Lee <507570355@qq.com> (https://cxvh.com)"
   ],
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.1",
     "camaro": "^6.0.2",
+    "cheerio": "^1.0.0-rc.6",
+    "colors": "^1.4.0",
+    "delete": "^1.1.0",
+    "dotenv": "^8.2.0",
+    "got": "^11.0.1",
     "hexo-fs": "^3.0.1",
     "hexo-util": "^2.1.0",
-    "got": "^11.0.1",
-    "turndown": "^6.0.0"
+    "turndown": "^6.0.0",
+    "winston": "^3.3.3",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
@@ -43,7 +51,8 @@
     "hexo": "^5.0.0",
     "mocha": "^8.0.1",
     "nyc": "^15.0.0",
-    "sinon": "^9.0.2"
+    "sinon": "^9.0.2",
+    "turndown": "^6.0.0"
   },
   "engines": {
     "node": ">=12.13.0 <13 || >=14"

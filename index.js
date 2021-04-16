@@ -1,4 +1,4 @@
 /* global hexo */
 'use strict';
 
-hexo.extend.migrator.register('rss', require('./lib/migrator'));
+hexo.extend.migrator.register('reader', require('./lib'));
