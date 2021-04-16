@@ -1,36 +1,37 @@
 {
-  "name": "hexo-reader",
-  "version": "1.0.10",
-  "description": "RSS reader plugin for Hexo,clone website of hexo",
-  "main": "index.js",
-  "directories": {
-    "lib": "./lib"
+  "_from": "hexo-reader",
+  "_id": "hexo-reader@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-pgw2YeZc5J3sI8A0HrD3/dcmJz6f9ZYF5zN2BVquLDlL4bhRwwKZI+nl2YUqiJT4A5YWH/1Kt6bupgU93VKX3A==",
+  "_location": "/hexo-reader",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-reader",
+    "name": "hexo-reader",
+    "escapedName": "hexo-reader",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "files": [
-    "index.js",
-    "lib/"
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
   ],
-  "scripts": {
-    "eslint": "eslint .",
-    "test": "mocha test/index.js",
-    "test-cov": "nyc npm run test",
-    "publish": "npm publish"
+  "_resolved": "https://registry.npmjs.org/hexo-reader/-/hexo-reader-1.0.11.tgz",
+  "_shasum": "799863b1b74256cdb6caf8aaa544faa29b03e9b1",
+  "_spec": "hexo-reader",
+  "_where": "E:\\v\\blogs\\volantis",
+  "author": {
+    "name": "Baran Lee",
+    "email": "507570355@qq.com",
+    "url": "https://cxvh.com"
   },
-  "repository": "code-ba/hexo-reader",
-  "bugs": "https://github.com/code-ba/hexo-reader/issues",
-  "keywords": [
-    "hexo",
-    "rss",
-    "feed",
-    "atom",
-    "reader",
-    "clone"
-  ],
-  "author": "Baran Lee <507570355@qq.com> (https://cxvh.com)",
-  "maintainers": [
-    "Baran Lee <507570355@qq.com> (https://cxvh.com)"
-  ],
-  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/code-ba/hexo-reader/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "axios": "^0.21.1",
     "camaro": "^6.0.2",
@@ -45,6 +46,8 @@
     "winston": "^3.3.3",
     "yamljs": "^0.3.0"
   },
+  "deprecated": false,
+  "description": "RSS reader plugin for Hexo,clone website of hexo",
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^7.0.0",
@@ -55,7 +58,44 @@
     "sinon": "^9.0.2",
     "turndown": "^6.0.0"
   },
+  "directories": {
+    "lib": "./lib"
+  },
   "engines": {
     "node": ">=12.13.0 <13 || >=14"
-  }
+  },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "homepage": "https://github.com/code-ba/hexo-reader#readme",
+  "keywords": [
+    "hexo",
+    "rss",
+    "feed",
+    "atom",
+    "reader",
+    "clone"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "Baran Lee",
+      "email": "507570355@qq.com",
+      "url": "https://cxvh.com"
+    }
+  ],
+  "name": "hexo-reader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-ba/hexo-reader.git"
+  },
+  "scripts": {
+    "eslint": "eslint .",
+    "publish": "npm publish",
+    "test": "mocha test/index.js",
+    "test-cov": "nyc npm run test"
+  },
+  "version": "1.1.0"
 }
